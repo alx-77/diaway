@@ -258,7 +258,7 @@ scroll-behavior: smooth;
 			background-position: 50% 30%;
 			background-repeat: no-repeat;
 			background-size: cover;
-
+                        transform: rotate(0);
 			/*overflow: hidden;		*/
 			/*border: 5px solid #92490d;*/
 					}	
