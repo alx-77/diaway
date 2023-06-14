@@ -103,17 +103,19 @@ scroll-behavior: smooth;
 	
 
 
-.upline_adres, .upline_time {
+.upline_adres, .upline_time, .upline_tel {
 	font-size: 22px;
 	font-weight: 400;
+	text-decoration: none;
 	color: #f3f3f3;
 }
+	@media (max-width: 849px) {
+		.upline_adres, .upline_time, .upline_tel {
+			font-size: 20px;
+			/*margin: 10px 0px 0px 20px;*/
+		}
+	}
 
-.upline_tel {
-    font-size: 22px;
-    text-decoration: none;
-    color: #ffffff;
-        }
 .upline_tel:hover {
             text-decoration: underline;
             color:#FF670A;
